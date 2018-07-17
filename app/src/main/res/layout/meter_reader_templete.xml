@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/tvMeterReadingID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/llmeterReading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:id="@+id/llMeterDetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:weightSum="4" >
+
+            <LinearLayout
+                android:id="@+id/llMeterText"
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:layout_below="@+id/llNoOfJobs"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/txtMeterText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="DL1337CS23"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="14dip"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llViewMeterImage"
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:layout_below="@+id/llPendingJobs"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="1" >
+
+                <ImageView
+                    android:id="@+id/imgViewMeterImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:src="@drawable/ic_viewdocument" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llDeleteMeterImage"
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="1" >
+
+                <ImageView
+                    android:id="@+id/imgDeleteMeterImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:src="@drawable/ic_deletedocument" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llUploadMeterImage"
+                android:layout_width="fill_parent"
+                android:layout_height="60dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="1" >
+
+                <ImageView
+                    android:id="@+id/imgUploadMeterImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

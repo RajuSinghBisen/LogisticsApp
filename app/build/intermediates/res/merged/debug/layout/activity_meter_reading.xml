@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <!-- Header  Starts -->
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/newheader_gredient"
+        android:orientation="horizontal"
+        android:paddingBottom="1dip"
+        android:paddingTop="1dip" >
+
+        <!-- Logo Start -->
+
+        <TableLayout
+            android:id="@+id/tblBack"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="15dip"
+                android:clickable="false"
+                android:src="@drawable/iconback" />
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvTitleMeterReading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginTop="5dip"
+                    android:text="Meter Reading"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvUserID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="2dip"
+                    android:layout_marginTop="2dip"
+                    android:gravity="left"
+                    android:text="UserID"
+                    android:textColor="#fff"
+                    android:textSize="13dp"
+                    android:textStyle="bold" >
+                </TextView>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tblSaveRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="1dip"
+                    android:clickable="false"
+                    android:paddingTop="10dip"
+                    android:src="@drawable/icondone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="right"
+                    android:paddingTop="10dip"
+                    android:text="SAVE"
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp"
+                    android:textStyle="bold" >
+                </TextView>
+            </TableRow>
+        </TableLayout>
+        <!-- Logo Ends -->
+    </LinearLayout>
+    <!-- Header Ends -->
+    <!-- Footer Start -->
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    <!-- Footer Ends -->
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:padding="5dip" >
+
+        <LinearLayout
+            android:id="@+id/imageFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/tvMeterImageIns"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginTop="5dip"
+                android:layout_weight="2"
+                android:text="Meter Image"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#205597"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/ImgViewMeterReading"
+                android:layout_width="fill_parent"
+                android:layout_height="110dip"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip"
+                android:layout_weight="2"
+                android:background="@drawable/imageborder" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/meterCaptureFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="4" >
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" >
+            </Space>
+
+            <Button
+                android:id="@+id/btnCapturePhoto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dip"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="4dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="2"
+                android:gravity="center|left"
+               	android:background="@drawable/button_gradient"
+               	android:drawableLeft="@drawable/ic_capture_image"
+                android:text="Take Photo"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="10dp"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tblrowMeterReading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <TextView
+                    android:id="@+id/tvAwbno"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_weight="0.5"
+                    android:text="Meter Value"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#205597"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/txtMeterReading"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:layout_weight="2.5"
+                    android:background="@drawable/edittext_selector"
+                    android:hint="Meter Value"
+                    android:inputType="numberDecimal"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tblrowMeterList"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/MeterlistTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/meterCaptureFrame"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dip" >
+
+            <TextView
+                android:id="@+id/tdAwbno"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@layout/newheader_gredient"
+                android:gravity="center"
+                android:text="Meter Value List"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+            <ListView
+                android:id="@+id/MeterReadingList"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:divider="#b5b5b5"
+                android:dividerHeight="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:scrollbarStyle="outsideOverlay"
+                android:visibility="gone" >
+            </ListView>
+
+            <LinearLayout
+                android:id="@+id/llNoMeterDetails"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/meterCaptureFrame"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dip"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/ImgNodata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="50dip"
+                    android:background="@drawable/fail" />
+
+                <TextView
+                    android:id="@+id/tvEmptyMessage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dip"
+                    android:gravity="center_horizontal"
+                    android:text="No data found."
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </TableLayout>
+
+</RelativeLayout>

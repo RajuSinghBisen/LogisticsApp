@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <!-- Logo Start -->
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:weightSum="3.0" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="Signature"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp" />
+            </TableRow>
+        </TableLayout>
+
+        <!-- Logo Ends -->
+    </LinearLayout>
+
+    <android.gesture.GestureOverlayView
+        android:id="@+id/gestures"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/linearLayoutBottom"
+        android:fadeEnabled="false"
+        android:fadeOffset="50000000"
+        android:gestureColor="#000000"
+        android:gestureStrokeType="multiple"
+        android:gestureStrokeWidth="1"
+        android:uncertainGestureColor="#000000" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/cancel"
+            style="@style/ButtonText"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".35"
+            android:text="Cancel"
+            android:background="#FF5722" />
+
+        <Button
+            android:id="@+id/getsign"
+            style="@style/ButtonText"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".35"
+            android:text="Save"
+            android:background="#FF5722" />
+    </LinearLayout>
+
+</RelativeLayout>

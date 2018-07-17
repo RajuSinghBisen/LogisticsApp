@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/txtLogTextLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LogText"
+        android:textColor="@color/awbno"
+        android:textSize="@dimen/phone" />
+
+    <TextView
+        android:id="@+id/txtRequestTimeLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLogTextLog"
+        android:text="RequestTime"
+        android:textColor="@color/departmentcode"
+        android:textSize="@dimen/phone" />
+
+    <TextView
+        android:id="@+id/txtResponseTimeLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtRequestTimeLog"
+        android:text="ResponseTime"
+        android:textColor="@color/departmentcode"
+        android:textSize="@dimen/phone" />
+
+    <TextView
+        android:id="@+id/txtTypeLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtResponseTimeLog"
+        android:text="Phone"
+        android:textColor="@color/departmentcode"
+        android:textSize="@dimen/phone" />
+
+    <TextView
+        android:id="@+id/txtUpdatedOnLiveLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTypeLog"
+        android:text="IsUpdatedOnLive"
+        android:textColor="@color/departmentcode"
+        android:visibility="gone"
+        android:textSize="@dimen/phone" />
+
+    <TextView
+        android:id="@+id/txtCreatedDateLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUpdatedOnLiveLog"
+        android:text="CreatedDate"
+        android:textColor="@color/departmentcode"
+        android:textSize="@dimen/phone" />
+    
+    <TextView
+        android:id="@+id/txtConnectionUsedLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCreatedDateLog"
+        android:text="ConnectionUsed"
+        android:textColor="@color/departmentcode"
+        android:textSize="@dimen/phone" />
+
+</RelativeLayout>

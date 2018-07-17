@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}">
+
+    <!-- Header  Starts -->
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/newheader_gredient"
+        android:orientation="horizontal"
+        android:paddingBottom="1dip"
+        android:paddingTop="1dip">
+
+        <!-- Logo Start -->
+
+        <TableLayout
+            android:id="@+id/tblBackCEF"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="15dip"
+                android:clickable="false"
+                android:src="@drawable/iconback" />
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvTitleCODEntryForm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginTop="5dip"
+                    android:text="Delivery Status Detail"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvUserID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="2dip"
+                    android:layout_marginTop="2dip"
+                    android:gravity="left"
+                    android:text="UserID"
+                    android:textColor="#fff"
+                    android:textSize="13dp"
+                    android:textStyle="bold"></TextView>
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tblSaveRecordCEF"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="1dip"
+                    android:clickable="false"
+                    android:paddingTop="10dip"
+                    android:src="@drawable/icondone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="right"
+                    android:paddingTop="10dip"
+                    android:text="SAVE"
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp"
+                    android:textStyle="bold"></TextView>
+            </TableRow>
+        </TableLayout>
+        <!-- Logo Ends -->
+    </LinearLayout>
+    <!-- Header Ends -->
+    <!-- Footer Start -->
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="4"></LinearLayout>
+    <!-- Footer Ends -->
+
+
+    <!-- Page Begins -->
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/header">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/tblrowAwbNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvAwbno"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginTop="5dip"
+                        android:text="Awb No"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#205597"
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:id="@+id/txtAwbNo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/edittext_selector"
+                        android:enabled="false"
+                        android:hint="AwbNo:"
+                        android:textColor="#757575"
+                        android:singleLine="true"></EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tblrowConsignee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvConsignee"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginTop="5dip"
+                        android:text="Consignee"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#205597"
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:id="@+id/txtConsignee"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_selector"
+                        android:enabled="false"
+                        android:hint="Consignee"
+                        android:textColor="#757575"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tblrowPktStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPktStatus"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginTop="5dip"
+                        android:text="Status"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#205597"
+                        android:textSize="18dp" />
+
+                    <Spinner
+                        android:id="@+id/spnPktStatus"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/customspinner"
+                        android:prompt="@string/pktstatus_prompt"
+                        android:spinnerMode="dialog" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tblrowRcRelation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvRcRelation"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginTop="5dip"
+                        android:text="Receiver Relation"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#205597"
+                        android:textSize="18dp" />
+
+                    <Spinner
+                        android:id="@+id/spnRCRelation"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/customspinner"
+                        android:prompt="@string/rcrelation_prompt"
+                        android:spinnerMode="dialog" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tblrowRcName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvRcName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginTop="5dip"
+                        android:text="Receiver Name"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#205597"
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:id="@+id/txtRCName"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/edittext_selector"
+                        android:enabled="true"
+                        android:hint="Enter Receiver Name"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tblrowRcPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvRcPhone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginTop="5dip"
+                        android:text="Receiver Phone Number"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#205597"
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:id="@+id/txtRCPhone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/edittext_selector"
+                        android:hint="Enter Receiver Phone Number"
+                        android:inputType="numberDecimal"
+                        android:maxLength="10"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tblrowPaymentType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPaymentType"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginTop="5dip"
+                        android:text="Payment Type"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#205597"
+                        android:textSize="18dp" />
+
+                    <Spinner
+                        android:id="@+id/spnPaymentType"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/customspinner"
+                        android:prompt="@string/paymentType_prompt"
+                        android:spinnerMode="dialog" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tblrowCODAmt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvCodamount"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:text="COD Amount"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#205597"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/lblCodamount"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:layout_weight="1"
+                        android:background="@drawable/edittext_selector"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tblrowCODRcAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvRecCodAmt"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:text="Rec Amt"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#205597"
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:id="@+id/txtCODamount"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/edittext_selector"
+                        android:hint="Amount"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:singleLine="true"
+                        android:textColor="#757575"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tblrowIDProff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvIDProoof"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:text="Receiver ID Proof"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#205597"
+                        android:textSize="18dp" />
+
+                    <Spinner
+                        android:id="@+id/spnIdProof"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/customspinner"
+                        android:prompt="@string/proof_prompt"
+                        android:spinnerMode="dialog" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tblrowIDProofNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvIDProofNo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:text="Receiver ID Proof No"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#205597"
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:id="@+id/txtIDProof"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/edittext_selector"
+                        android:hint="Receiver ID Proof No"
+                        android:maxLength="30"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tblPosRemarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvPosRemarks"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:maxLength="100"
+                        android:text="Remarks"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#205597"
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:id="@+id/txtPosRemarks"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/edittext_selector"
+                        android:hint="Remarks"
+                        android:maxLength="50"
+                        android:singleLine="true" />
+                </LinearLayout>
+            </TableLayout>
+
+            <LinearLayout
+                android:id="@+id/imageFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ImgView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dip"
+                    android:layout_marginLeft="4dip"
+                    android:layout_marginRight="4dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_weight="2"
+                    android:background="@drawable/imageborder" />
+
+                <ImageView
+                    android:id="@+id/ImgSignature"
+                    android:layout_width="fill_parent"
+                    android:layout_height="120dip"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="4dip"
+                    android:layout_marginTop="5dip"
+                    android:layout_weight="2"
+                    android:background="@drawable/imageborder" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/signatureFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/btnCapturePhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dip"
+                    android:layout_marginLeft="4dip"
+                    android:layout_marginRight="4dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="2"
+                    android:background="@drawable/button_gradient"
+                    android:drawableLeft="@drawable/ic_capture_image"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="Take Photo"
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnCaptureSignature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dip"
+                    android:layout_marginLeft="4dip"
+                    android:layout_marginRight="4dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="2"
+                    android:background="@drawable/button_gradient"
+                    android:drawableLeft="@drawable/ic_signature"
+                    android:gravity="center|left"
+                    android:paddingLeft="10dp"
+                    android:text="Signature"
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TableLayout
+                android:id="@+id/tblRTO"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:id="@+id/tblrowRcRemarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <Spinner
+                        android:id="@+id/spnRCReamrks"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:layout_weight="3"
+                        android:background="@drawable/customspinner"
+                        android:prompt="@string/rcremarks_prompt"
+                        android:spinnerMode="dialog" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblrowNegRemarks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <!--
+                         <EditText
+                        android:id="@+id/txtNegRemarks"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:layout_weight="3"
+                        android:background="@drawable/edittext_selector"
+                        android:hint="Enter Remarks"
+                        android:singleLine="true" />
+
+                    -->
+
+                    <Spinner
+                        android:id="@+id/spnNegRemarks"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:layout_weight="3"
+                        android:background="@drawable/customspinner"
+                        android:prompt="@string/promNegRemarks"
+                        android:spinnerMode="dialog" />
+                </TableRow>
+            </TableLayout>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

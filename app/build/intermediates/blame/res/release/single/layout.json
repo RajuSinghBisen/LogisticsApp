@@ -1,0 +1,498 @@
+[
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_splash.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\podtextview.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\podtextview.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\footer_repeat.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\footer_repeat.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_fragment.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\newheader_gredient.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\newheader_gredient.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\mr_media_route_list_item.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\header_gradient.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\header_gradient.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\mr_media_route_chooser_dialog.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\signature_gestureoverlaypopup.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\signature_gestureoverlaypopup.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\header_gradient2.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\header_gradient2.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\podtextview.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\podtextview.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_option.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_option.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\header_gradient2.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\header_gradient2.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\tab1_gredient.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\tab1_gredient.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_case_list.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_case_list.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\newheader_gredient.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\newheader_gredient.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\custom_fullimage_dialog.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\custom_fullimage_dialog.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_entry_form.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_entry_form.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_meter_reading.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_meter_reading.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_progress.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_option.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_option.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_splash.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_fragment.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\tab1_gredient.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\tab1_gredient.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\mr_media_route_chooser_dialog.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\viewloglist_templete.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\viewloglist_templete.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\footer_repeat.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\footer_repeat.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_action.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_case_list.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_case_list.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\mr_media_route_list_item.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_progress.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_cancel_action.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\meter_reader_templete.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\meter_reader_templete.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\signature_gestureoverlaypopup.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\signature_gestureoverlaypopup.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_cancel_action.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\mr_media_route_controller_material_dialog_b.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout\\mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\tab1_gredient_pressed.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\tab1_gredient_pressed.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_view_list.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_view_list.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_entry_form.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_entry_form.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_action.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_view_list.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_view_list.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\custom_fullimage_dialog.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\custom_fullimage_dialog.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\viewloglist_templete.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\viewloglist_templete.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\meter_reader_templete.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\meter_reader_templete.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_meter_reading.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\activity_meter_reading.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\tab1_gredient_pressed.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\tab1_gredient_pressed.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\layout\\header_gradient.xml",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\src\\main\\res\\layout\\header_gradient.xml"
+    }
+]

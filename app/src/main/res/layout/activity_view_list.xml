@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <!-- Header  Starts -->
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/newheader_gredient"
+        android:orientation="horizontal"
+        android:paddingBottom="1dip"
+        android:paddingTop="1dip"
+        android:weightSum="4" >
+
+        <!-- Logo Start -->
+
+        <TableLayout
+            android:id="@+id/tblBackViewList"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true"
+            android:gravity="right" >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="10dip"
+                android:background="?android:selectableItemBackground"
+                android:clickable="false"
+                android:src="@drawable/iconback" />
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tblBa"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_weight="2"
+            android:background="?android:selectableItemBackground"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/txtTotalLog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:gravity="center_horizontal"
+                android:text="Total"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/phone" 
+                android:textStyle="bold"/>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tblBackViewListUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="?android:selectableItemBackground"
+            android:visibility="gone"
+            android:clickable="true" >
+
+            <ImageButton
+                android:id="@+id/btnUpdateViewList"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:clickable="false"
+                android:background="?android:selectableItemBackground"
+                android:src="@drawable/uplog" />
+        </TableLayout>
+
+        <!-- Logo Ends -->
+    </LinearLayout>
+    <!-- Header Ends -->
+    <!-- Footer Start -->
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    <!-- Footer Ends -->
+
+    <LinearLayout
+        android:id="@+id/headertab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:orientation="horizontal"
+        android:padding="0dip"
+        android:weightSum="3" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footer"
+        android:layout_below="@id/headertab"
+        android:orientation="vertical"
+        android:padding="0dip" >
+
+        <ListView
+            android:id="@+id/ViewList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="#b5b5b5"
+            android:dividerHeight="0dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:scrollbarStyle="outsideOverlay" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

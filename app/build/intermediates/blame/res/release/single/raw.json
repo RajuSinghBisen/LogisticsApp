@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\raw\\gtm_analytics",
+        "source": "G:\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\res\\merged\\release\\raw\\gtm_analytics",
+        "source": "F:\\AndroidStudioProjects\\Bombino_SOAP_New\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    }
+]

@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <dimen name="consignee">18dp</dimen>
+    <dimen name="awbno">17dp</dimen>
+    <dimen name="codamount">16dp</dimen>
+    <dimen name="address">15dp</dimen>
+    <dimen name="phone">14dp</dimen>
+
+</resources>

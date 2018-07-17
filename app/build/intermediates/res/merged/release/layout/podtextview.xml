@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtconsignee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Consignee"
+                android:textColor="@color/consignee"
+                android:textSize="@dimen/consignee"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtAwbno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AwbNo"
+                android:textColor="@color/awbno"
+                android:textSize="@dimen/awbno" />
+
+            <TextView
+                android:id="@+id/txtRcName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Receiver Name"
+                android:textColor="@color/awbno"
+                android:textSize="@dimen/awbno"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtInvoiceAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="InvoiceAmount"
+                android:textColor="@color/departmentcode"
+                android:textSize="@dimen/codamount" />
+
+            <TextView
+                android:id="@+id/txtCodAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CodAmount"
+                android:textColor="@color/departmentcode"
+                android:textSize="@dimen/codamount" />
+
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="@color/departmentcode"
+                android:textSize="@dimen/address" />
+
+            <TextView
+                android:id="@+id/txtPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:textColor="@color/departmentcode"
+                android:textSize="@dimen/phone" />
+
+            <TextView
+                android:id="@+id/txtUpdatedOnLive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IsUpdatedOnLive"
+                android:textColor="@color/departmentcode"
+                android:textSize="@dimen/phone" />
+
+            <TextView
+                android:id="@+id/txtRunSheetNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RunsheetNo"
+                android:textColor="@color/departmentcode"
+                android:textSize="@dimen/phone"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtRunSheetDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RunsheetDate"
+                android:textColor="@color/departmentcode"
+                android:textSize="@dimen/phone"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtCreatedDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CreatedDate"
+                android:textColor="@color/departmentcode"
+                android:textSize="@dimen/phone"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtServerDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ServerDate"
+                android:textColor="@color/departmentcode"
+                android:textSize="@dimen/phone"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/txtUndeliveredReason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reason"
+                android:textColor="@color/departmentcode"
+                android:textSize="@dimen/phone"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1.6"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnupload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/upload" />
+
+            <ImageButton
+                android:id="@+id/btnUpdateList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/go2" />
+
+            <ImageButton
+                android:id="@+id/btnCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/telephone" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

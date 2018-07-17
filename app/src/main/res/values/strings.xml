@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bombino POD App</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_case_list">CaseListActivity</string>
+
+    <color name="ibcode">#212121</color>
+    <color name="awbno">#212121</color>
+    <color name="consignee">#212121</color>
+    <color name="departmentcode">#212121</color>
+
+    <string name="title_activity_entry_form">EntryForm</string>
+    <string name="pktstatus_prompt">Select Packet Status</string>
+    <string name="rcrelation_prompt">Select Receiver Relation</string>
+    <string name="rcremarks_prompt">Select Receiver Remarks</string>
+    <string name="paymentType_prompt">Select Payment Type</string>
+    <string name="proof_prompt">Select Receiver ID Proof</string>
+    <string name="notificationtitle">Bombino POD App</string>
+    <string name="notificationticker">Bombino POD App</string>
+    <string name="promNegRemarks">Select Negative Remarks</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <string name="title_activity_option">OptionActivity</string>
+
+</resources>
